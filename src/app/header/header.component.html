@@ -7,20 +7,20 @@
   <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
       <li class="nav-item">
-        <a class="nav-link" href="#" (click)="onSelect('recipe')">Recipes</a>
+        <a class="nav-link" routerLink="/recipes" routerLinkActive="active">Recipes</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#" (click)="onSelect('shopping-list')">Shopping List</a>
+        <a class="nav-link" routerLink="/shopping-list" routerLinkActive="active">Shopping List</a>
       </li>
     </ul>
 
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
       <li class="dropdown" appDropdown>
-        <a href="#" class="dropdown-toggle" role="button">Manage <span class="caret"></span></a>
+        <a class="dropdown-toggle" role="button">Manage <span class="caret"></span></a>
 
         <ul class="dropdown-menu">
-          <li><a href="#">Save Data</a></li>
-          <li><a href="#">Fetch Data</a></li>
+          <li><a>Save Data</a></li>
+          <li><a>Fetch Data</a></li>
         </ul>
       </li>
     </ul>

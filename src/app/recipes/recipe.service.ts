@@ -38,4 +38,8 @@ export class RecipeService {
     this.slService.AddIngs(ingredients);
   }
 
+  getRecipe(index: number) {
+    return this.recipes[index]
+  }
+
 }
