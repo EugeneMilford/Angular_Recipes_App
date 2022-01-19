@@ -3,21 +3,14 @@
     "",
     "\\src",
     "\\src\\app",
-<<<<<<< Updated upstream
     "\\src\\app\\auth",
-=======
->>>>>>> Stashed changes
-    "\\src\\app\\header",
     "\\src\\app\\recipes",
     "\\src\\app\\recipes\\recipe-start",
     "\\src\\app\\shared",
+    "\\src\\app\\shared\\loading-spinner",
     "\\src\\app\\shopping-list",
     "\\src\\app\\shopping-list\\shopping-edit"
   ],
-<<<<<<< Updated upstream
-  "SelectedNode": "\\src\\app\\recipes\\recipe-list\\recipe-list.component.html",
-=======
-  "SelectedNode": "\\src\\app\\auth\\auth.service.ts",
->>>>>>> Stashed changes
+  "SelectedNode": "\\src\\app\\auth\\auth.guard.ts",
   "PreviewInSolutionExplorer": false
 }
