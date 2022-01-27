@@ -10,6 +10,10 @@ import { RecipeItemComponent } from './recipe-list/recipe-item/recipe-item.compo
 import { RecipeStartComponent } from './recipe-start/recipe-start.component';
 import { RecipeEditComponent } from './recipe-edit/recipe-edit.component';
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+=======
+import { RecipesRoutingModule } from './recipes-routing.module';
+>>>>>>> Stashed changes
 =======
 import { RecipesRoutingModule } from './recipes-routing.module';
 >>>>>>> Stashed changes
@@ -24,6 +28,7 @@ import { RecipesRoutingModule } from './recipes-routing.module';
     RecipeEditComponent
   ],
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
   imports: [RouterModule, CommonModule, ReactiveFormsModule],
   exports: [
     RecipesComponent,
@@ -33,11 +38,16 @@ import { RecipesRoutingModule } from './recipes-routing.module';
     RecipeStartComponent,
     RecipeEditComponent
 =======
+=======
+>>>>>>> Stashed changes
   imports: [
     RouterModule,
     CommonModule,
     ReactiveFormsModule,
     RecipesRoutingModule
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   ]
 })
