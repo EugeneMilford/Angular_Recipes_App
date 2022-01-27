@@ -4,7 +4,6 @@
     "\\src",
     "\\src\\app",
     "\\src\\app\\recipes",
-    "\\src\\app\\recipes\\recipe-start",
     "\\src\\app\\shared",
     "\\src\\app\\shared\\alert",
     "\\src\\app\\shared\\loading-spinner",
@@ -12,6 +11,6 @@
     "\\src\\app\\shopping-list",
     "\\src\\app\\shopping-list\\shopping-edit"
   ],
-  "SelectedNode": "\\src\\app\\auth\\auth.component.ts",
+  "SelectedNode": "\\src\\app\\recipes\\recipes.module.ts",
   "PreviewInSolutionExplorer": false
 }
