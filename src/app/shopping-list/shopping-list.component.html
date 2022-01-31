@@ -5,10 +5,11 @@
     <ul class="list-group">
       <a class="list-group-item"
          style="cursor: pointer"
-         *ngFor="let ing of ingredients; let i = index"
-         (click)="onEditItem(i)"
-         >
-        {{ ing.name }} ({{ ing.amount }})
+         *ngFor="let ingredient of ingredients; let i = index"
+         (click)="onEditItem(i)">
+        {{ ingredient.name }} ({{ ingredient.amount }})
       </a>
     </ul>
   </div>
+</div>
+
