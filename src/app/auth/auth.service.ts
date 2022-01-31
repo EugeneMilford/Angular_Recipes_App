@@ -16,6 +16,9 @@ export interface AuthResponseData {
 
 @Injectable({ providedIn: 'root' })
 export class AuthService {
+  Signup(email: any, password: any): import("rxjs").Observable<AuthResponseData> {
+      throw new Error('Method not implemented.');
+  }
 
   user = new BehaviorSubject<User>(null);
 

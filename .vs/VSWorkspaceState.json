@@ -3,15 +3,19 @@
     "",
     "\\src",
     "\\src\\app",
+    "\\src\\app\\auth",
     "\\src\\app\\recipes",
     "\\src\\app\\recipes\\recipe-start",
     "\\src\\app\\shared",
-    "\\src\\app\\shared\\alert",
     "\\src\\app\\shared\\loading-spinner",
     "\\src\\app\\shared\\placeholder",
     "\\src\\app\\shopping-list",
     "\\src\\app\\shopping-list\\shopping-edit"
   ],
+<<<<<<< Updated upstream
   "SelectedNode": "\\src\\app\\auth\\auth.component.ts",
+=======
+  "SelectedNode": "\\src\\app\\logging.service.ts",
+>>>>>>> Stashed changes
   "PreviewInSolutionExplorer": false
 }
